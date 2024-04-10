@@ -64,9 +64,11 @@ document.querySelector("#slider").addEventListener("change", function(e) {
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
+	console.log("Old school utilized");
 	video.classList.add("oldSchool");
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
+	console.log("Old school removed");
 	video.classList.remove("oldSchool");
 });
